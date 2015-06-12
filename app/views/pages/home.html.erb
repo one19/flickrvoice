@@ -1,0 +1,18 @@
+<nav>
+  <h1>Image Search</h1>
+  <form id="image_search">
+    <%= text_field_tag 'search', nil, :autofocus => true %>
+    <%= button_tag 'Search Images', :id => 'search_flickr' %>
+    <%= button_tag 'Voice Search', :id => 'voice_search' %>
+  </form>
+</nav>
+
+<div id="results">
+  <%= image_tag "20150603_184219.jpg", :class => "thumbnail" %>
+</div>
+
+<!-- <div id="output"></div>
+<center><div id="microphone"></div></center>
+<pre id="result"></pre>
+<div id="info"></div>
+<div id="error"></div> -->

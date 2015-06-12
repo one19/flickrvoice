@@ -1,0 +1,63 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body, html {
+  background-color: black;
+  width: 2000px;
+}
+
+body {
+  position: absolute;
+  left: -20px;
+}
+
+
+.thumbnail {
+  margin: 0 auto;
+  height: 220px;
+  border-bottom: 1px solid green;
+  border-top: 1px solid green; 
+  margin-bottom: 8px;
+  filter: grayscale(100%);
+  filter: blur(5px);
+}
+
+.thumbnail:hover {
+  filter: grayscale(0);
+}
+
+h1 {
+  margin: 0 auto;
+  margin-bottom: 5px;
+
+}
+
+nav {
+  position: fixed;
+  z-index: 5;
+  left: 5px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 8px;
+
+
+  background-color: rgba(255,240,210,.7)
+}
+
+#search {
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 2px;
+}
+
+#search_flickr {
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#voice_search {
+  border-radius: 4px;
+  font-size: 14px;
+}
